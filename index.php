@@ -1,9 +1,3 @@
-<html>
-<head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <title>Multilang PHP Website</title>
-</head>
-<body>
 <?php
 /**
  * Project: multilangphp.
@@ -15,6 +9,12 @@
  */
 require_once "language.php";
 ?>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>Multilang PHP Website</title>
+</head>
+<body>
 <div style="text-align: center">
 <h1><?php echo $lang['HEADER_TITLE']." ".$lang['LANGUAGE_TITLE'];?></h1>
 <?php echo $lang['SELECT_LANGUAGE'];?>: <a href='?lang=en'><?php echo $lang['EN'];?></a> - <a href='?lang=vi'><?php echo $lang['VI'];?></a>
